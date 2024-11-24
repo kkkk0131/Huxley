@@ -524,6 +524,11 @@
 }
 
 @media screen and (max-width: 490px) {
+    .in_footer {
+        width: 100%;
+        padding: 18% 0;
+    }
+
     .footer_logo {
         width: 70px;
     }
@@ -533,7 +538,7 @@
     }
 
     .copyright>p:nth-child(1) {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 1.5;
     }
 
