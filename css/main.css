@@ -522,3 +522,23 @@
         font-size: 13px;
     }
 }
+
+@media screen and (max-width: 490px) {
+    .footer_logo {
+        width: 70px;
+    }
+
+    .footer_gnb a {
+        font-size: 14px;
+    }
+
+    .copyright>p:nth-child(1) {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .copyright>p:nth-child(2) {
+        font-size: 12px;
+    }
+}
+
